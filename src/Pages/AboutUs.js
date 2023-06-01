@@ -1,9 +1,10 @@
 import React from 'react'
+import FormIN from '../Components/FormIn'
 
 export default function AboutUs() {
   return (
     <div>
-      About Us
+    <FormIN/>
     </div>
   )
 }
