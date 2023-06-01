@@ -4,13 +4,14 @@ import React from 'react'
 // import ContactUs from './ContactUs'
 // import Services from './Services'
 // import Projects from './Projects'
-// import NavbarApp from '../Components/NavBar';
+import NavbarApp from '../Components/NavBar';
 import Hero from '../Components/Hero';
 import ServicesSection from '../Components/ServicesSection';
 
 export default function HomePage() {
   return (
     <div>
+      <NavbarApp />
       <Hero />
       <ServicesSection />
     </div>
